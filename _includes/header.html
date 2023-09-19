@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% render "title.html", hideName: hideName, separator: separator, separator2: separator2 %}</title>
+    <style type="text/css">
+        code {
+            padding: .25em;
+            background: #cccc;
+            justify-self: center;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th {
+            padding: .5em;
+            background: #eee;
+            border-bottom: 1px solid;
+            text-align: left;
+        }
+
+        th:nth-child(2) {
+            border-left: .15em solid #fff;
+            border-right: .15em solid #fff;
+        }
+
+        td {
+            padding: .25em 0;
+        }
+
+        td:not(:nth-child(1)) {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Safari Title Test</h1>
